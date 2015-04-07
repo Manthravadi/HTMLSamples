@@ -3,6 +3,8 @@ wrapper {
     -webkit-perspective: 800;
     margin: 150px auto 0 auto;
     -webkit-transition: -webkit-perspective 1s;
+    perspective: 800;
+    perspective-origin: 50% 90px;
     width: 600px;
 }
 
@@ -24,6 +26,7 @@ wrapper {
     width: 200px;
     height: 200px;
     -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
     -webkit-animation: spin 8s infinite linear;
 }
 
