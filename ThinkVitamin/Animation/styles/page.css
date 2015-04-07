@@ -1,9 +1,8 @@
-wrapper {
+#wrapper {
     -webkit-perspective-origin: 50% 90px;
-    -webkit-perspective: 800;
     margin: 150px auto 0 auto;
+    -webkit-perspective: 800;
     -webkit-transition: -webkit-perspective 1s;
-    perspective: 800;
     perspective-origin: 50% 90px;
     width: 600px;
 }
@@ -37,7 +36,7 @@ wrapper {
     background: rgba(0, 0, 0, 0.6);
     text-align: center;
     font-size: 10em;
-    color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 1);
 }
 
 #shape > .p1 {
