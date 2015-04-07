@@ -1,0 +1,70 @@
+wrapper {
+    -webkit-perspective-origin: 50% 90px;
+    -webkit-perspective: 800;
+    margin: 150px auto 0 auto;
+    -webkit-transition: -webkit-perspective 1s;
+    width: 600px;
+}
+
+#wrapper:hover {
+    -webkit-perspective-origin: 50% -100px;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(-360deg);
+    }
+}
+
+#shape {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation: spin 8s infinite linear;
+}
+
+.plane {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 10em;
+    color: rgba(255, 255, 255, 0);
+}
+
+#shape > .p1 {
+    transform: rotateY(0deg) translateZ(250px);
+}
+
+#shape > .p2 {
+    transform: rotateY(45deg) translateZ(250px);
+}
+
+#shape > .p3 {
+    transform: rotateY(90deg) translateZ(250px);
+}
+
+#shape > .p4 {
+    transform: rotateY(135deg) translateZ(250px);
+}
+
+#shape > .p5 {
+    transform: rotateY(180deg) translateZ(250px);
+}
+
+#shape > .p6 {
+    transform: rotateY(225deg) translateZ(250px);
+}
+
+#shape > .p7 {
+    transform: rotateY(270deg) translateZ(250px);
+}
+
+#shape > .p8 {
+    transform: rotateY(315deg) translateZ(250px);
+}
