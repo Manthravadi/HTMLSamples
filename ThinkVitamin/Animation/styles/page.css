@@ -1,7 +1,7 @@
 #wrapper {
     -webkit-perspective-origin: 50% 90px;
     margin: 150px auto 0 auto;
-    -webkit-perspective: 800;
+    -webkit-perspective: 750;
     -webkit-transition: -webkit-perspective 1s;
     perspective-origin: 50% 90px;
     width: 600px;
